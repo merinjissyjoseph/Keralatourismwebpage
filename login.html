@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <title>Kerala tourism Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./CSS/styleform.css">
+    </head>
+    <body background="Images/kt3.jpg">
+     <div class="login">
+       <form action="https://www.keralatourism.org/" onsubmit="return validateForm()">
+           <h2>User Login</h2>
+           <br>
+           <div>
+               <label >Username</label>
+            <br>
+            <input type="text" placeholder="Enter ur username" id="username">
+            </div>
+            <div>
+                <label >Password</label>
+             <br>
+             <input type="password" placeholder="password" id="password">
+             </div>
+             <br>
+             <div>    
+             <input type="submit" value="Login">
+             </div>
+             <br>
+             <span id="error">status check</span>
+            
+       </form>
+    </div>  
+    <script src="login.js"></script>
+        
+       
+    </body>
+</html>

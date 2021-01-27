@@ -1,0 +1,23 @@
+body{
+    background-size: cover;
+    float: left;
+}
+.login{
+    /* background-image: url(C:\Users\Merin\Desktop\Assignment1\Images\alpy\alpy1); */
+    text-align: center;
+    border: 2px solid black;
+    background-color: burlywood;
+    height: 15 em;
+    width: 10em;
+    /* margin-top: 5%;
+    margin-right: 2% ; */
+    padding: 30px;
+}
+.signup a{
+    text-decoration: none;
+
+}
+.signup a:hover{
+    color: chocolate;
+
+}
